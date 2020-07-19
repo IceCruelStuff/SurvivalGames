@@ -1,11 +1,11 @@
 name: SurvivalGames
-author: Zeao
-description: The Main SurvivalGames plugin, the official and soon may be bug free.
-main: Zeao\Main
-version: 2.0.0-BETA
-api: [3.0.0, 4.0.0]
-LOAD: STARTUP
+description: SurvivalGames plugin for PocketMine-MP servers.
+main: SurvivalGames\Main
+version: 2.0
+api: 3.14.0
+load: STARTUP
+website: https://github.com/IceCruelStuff/SurvivalGames
 
 commands:
-    sg:
-        description: SurvivalGames main command. 
+  sg:
+    description: SurvivalGames main command. 
